@@ -1,7 +1,7 @@
 name: intrinsic_size_overflow_box
 description: IntrinsicSizeOverflowBox widget, similar to `OverflowBox` except that the unconstrained width or height is sized to the intrinsic size of the child.
 version: 0.1.0
-homepage:
+repository: https://github.com/ronjb/intrinsic_size_overflow_box
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
