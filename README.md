@@ -2,7 +2,7 @@
 
 [![Pub](https://img.shields.io/pub/v/intrinsic_size_overflow_box.svg)](https://pub.dev/packages/intrinsic_size_overflow_box)
 
-A widget that imposes different constraints on its child than it gets from its parent, possibly allowing the child to overflow the parent.
+A Flutter widget that imposes different constraints on its child than it gets from its parent, possibly allowing the child to overflow the parent.
 
 Similar to `OverflowBox` except that the unconstrained width or height is sized to the intrinsic size of the child, instead of being assumed to be infinite, which allows IntrinsicSizeOverflowBox to be used in a `Scrollable` widget.
 
