@@ -1,0 +1,15 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+
+  errors:
+    close_sinks: ignore
+    missing_required_param: error
+    missing_return: error
+
+  exclude:
+    - /**/generated_plugin_registrant.dart
+    - /**/.test_coverage.dart
