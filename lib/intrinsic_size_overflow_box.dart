@@ -1,3 +1,7 @@
+// Copyright (c) 2021 Ron Booth. All rights reserved.
+// Use of this source code is governed by a license that can be found in the
+// LICENSE file.
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
@@ -10,14 +14,14 @@ import 'package:flutter/widgets.dart';
 /// infinite, which allows IntrinsicSizeOverflowBox to be used in a `Scrollable`
 /// widget.
 class IntrinsicSizeOverflowBox extends SingleChildRenderObjectWidget {
-/// Creates a new IntrinsicSizeOverflowBox, a widget that imposes different 
-/// constraints on its child than it gets from its parent, possibly allowing 
-/// the child to overflow the parent.
-///
-/// Similar to `OverflowBox` except that the unconstrained width or height
-/// is sized to the intrinsic size of the child, instead of being assumed to be
-/// infinite, which allows IntrinsicSizeOverflowBox to be used in a `Scrollable`
-/// widget.
+  /// Creates a new IntrinsicSizeOverflowBox, a widget that imposes different
+  /// constraints on its child than it gets from its parent, possibly allowing
+  /// the child to overflow the parent.
+  ///
+  /// Similar to `OverflowBox` except that the unconstrained width or height
+  /// is sized to the intrinsic size of the child, instead of being assumed to 
+  /// be infinite, which allows IntrinsicSizeOverflowBox to be used in a 
+  /// `Scrollable` widget.
   const IntrinsicSizeOverflowBox({
     Key? key,
     this.minWidth,
